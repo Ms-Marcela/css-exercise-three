@@ -3,7 +3,6 @@
 }
 
 .content {
-  box-sizing: border-box;
   float: left;
   padding: 20px 0 19px 15px;
   width: 90%;
@@ -38,22 +37,14 @@ nav {
   width: 420px;
 }
 
-div{
-  display: inline-block;
-  background-color: #fff;
-  width: 100%;
-}
-
 .restaurant-list {
   width: 100%;
   padding-top: 10%;
 }
 
 .arrow {
-  background-color: white;
   width: 10%;
-  margin-top: 0.1%;
-  padding: 39px 25px 25px 17px;
+  margin-top: 8%;
   float: right;
 }
 
@@ -64,9 +55,10 @@ div{
 
 .location{
   width: 100%;
-  border-bottom: 1px thin gray;
+  background-color: white;
+  display: inline-block;
 }
 
 .location:hover {
-  background-color: green;
+  background-color: #D3D3D3;
 }
