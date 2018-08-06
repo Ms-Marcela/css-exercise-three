@@ -4,7 +4,6 @@
 
 .content {
   box-sizing: border-box;
-  background-color: #fff;
   float: left;
   padding: 20px 0 19px 15px;
   width: 90%;
@@ -41,6 +40,8 @@ nav {
 
 div{
   display: inline-block;
+  background-color: #fff;
+  width: 100%;
 }
 
 .restaurant-list {
@@ -66,6 +67,6 @@ div{
   border-bottom: 1px thin gray;
 }
 
-.location:hover, .arrow:hover, .content:hover {
-  background-color: gray;
+.location:hover {
+  background-color: green;
 }
